@@ -1,0 +1,161 @@
+/*Importing default angular material css theme. */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+
+$primary-color1: tomato;
+$primary-color2: #252627;
+$primary-color3: white;
+$primary-color4: lightgrey;
+
+// Height and Width styles
+
+.full-height {
+    height: 100%;
+}
+
+.height-100px {
+    height: 100px;
+}
+
+.height-150px {
+    height: 150px;
+}
+
+.height-35 {
+    height: 35%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.width-40 {
+    width: 40%;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+
+.width-200px {
+    width: 200px;
+}
+
+.standard-width {
+    width: 100%;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+// colors and background colors
+
+.bg-black {
+    background-color: $primary-color2;
+}
+
+.color-w {
+    color: $primary-color3;
+}
+
+.bg-white {
+    background-color: $primary-color3;
+}
+
+// .auth-logo-c {
+//    height: ; 
+// }
+
+// padding and margins
+
+.padding-t-b-15px {
+    padding: 15px 0px;
+    box-sizing: border-box;
+}
+
+.no-margin {
+    margin: 0px
+}
+
+.margin-left-1em {
+    margin-left: 12px;
+}
+
+.padding-15px {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.box-shadow-lg {
+    // box-shadow: 5px 5px 8px 8px$primary-color4;
+    // box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+    box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09);
+}
+
+// Text styles
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.auth-h2 {
+    border-left: 1px solid grey;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+// Images styles
+
+.speaker-c {
+    height: 50px;
+    width: 50px;
+}
+
+.small-logo-30px {
+    width: 30px;
+    height: 30px;
+}
+.btn {
+    border: 1px solid $primary-color2;
+    border-radius: 30px;
+}
+
+.inline {
+    display: inline;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+// position and z-index styles
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.log-in-card {
+    top: 211px;
+    left: 170px;
+}
+
+.z-index-1 {
+    z-index: 1000;
+}

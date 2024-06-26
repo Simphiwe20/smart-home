@@ -1,0 +1,38 @@
+{
+    "routes": [
+        {
+            "path": "log-in",
+            "component": "log_inComponent"
+        },
+        {
+            "path": "dashboard",
+            "component": "dashboardComponent"
+        },
+        {
+            "path": "deye_records",
+            "component": "deye_inventerComponent"
+        },
+        {
+            "path": "meterbox_records",
+            "component": "meter_boxComponent"
+        },
+        {
+            "path": "add_data",
+            "component": "add_data_formComponent"
+        },
+        {
+            "path": "landing",
+            "component": "landingComponent"
+        },
+        {
+            "path": "''",
+            "redirectTo": "/log-in",
+            "pathMatch": "full",
+            "default": true
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent"
+        }
+    ]
+}

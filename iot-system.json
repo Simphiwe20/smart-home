@@ -1,0 +1,13 @@
+{
+    "displayName": "iot-system",
+    "appName": "iot-system",
+    "description": "This system will display data from the meter box and deye inveter",
+    "lastModified": "2024-06-25T12:08:19.213Z",
+    "imgSourcePath": "",
+    "version": "1.0.0",
+    "appType": "uiOnly",
+    "templateName": "blank",
+    "createDate": "2024-06-25T12:08:17.212Z",
+    "analyticsId": "060ffb98-6304-416a-4e28-7fd6bcb480fe",
+    "createdStudioVersion": "9.2.1"
+}
